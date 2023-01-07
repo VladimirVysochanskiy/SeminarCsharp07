@@ -11,7 +11,6 @@ FillArray2DIndexSum(myArray);
 PrintArray2D(myArray);
 System.Console.WriteLine();
 
-//Метод Печать 2D массива равнение право.
 PrintArray2D(CreateFill2DArrayRandom(10, 10, -99, 99));
 
 
@@ -27,6 +26,7 @@ void FillArray2DIndexSum(int[,] matr)
     }
 }
 
+//Метод Печать 2D массива равнение право.
 void PrintArray2D(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
